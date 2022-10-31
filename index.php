@@ -13,16 +13,16 @@ include 'koneksi.php';
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/login.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     
     <title>Halaman Login</title>
   </head>
   <!-- Form Login -->
-  <body style="min-height: 100vh;">
-    <div class="container">
+  <body>
+    <div class="container wrapper">
       <div class="wrapper">
       <div class="row">
         <div class="col-md-6 offset-md-3">
@@ -50,7 +50,7 @@ include 'koneksi.php';
   <!-- Akhir Form Login -->
 
   <!-- Awal Footer -->
-  <footer class="text-center text-white bg-dark mt-5">
+  <footer class="text-center text-white bg-dark mt-5" >
   <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.9);">© 2022 Copyright: Designed by 192102135 - Abrari Liwalidina</div>
   <!-- Copyright -->

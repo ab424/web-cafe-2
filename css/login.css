@@ -1,3 +1,6 @@
+.wrapper {
+  min-height: 100vh;
+}
 .btn-color{
     background-color: #0e1c36;
     color: #fff;
