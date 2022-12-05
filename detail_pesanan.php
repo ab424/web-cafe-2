@@ -110,6 +110,7 @@
       <form method="POST" action="">
         <a href="pesanan.php" class="btn btn-success btn-sm">Kembali</a>
         <button class="btn btn-primary btn-sm" name="bayar">Konfirmasi Pembayaran</button>
+        <a href="/cafe-legend/struk.php?id=<?= $_GET['id'] ?>" class="btn btn-primary btn-sm" name="bayar">Cetak Struk</button>
       </form> 
       
       <?php 
@@ -135,6 +136,7 @@
       <a class="btn btn-outline-light btn-floating ml-3" href="https://www.instagram.com/norok_nol/" role="button"
         ><i class="fab fa-instagram"></i
       ></a>
+      
     </section>
   </div>
   <div class="card-footer text-center text-white" style="background-color: rgba(0, 0, 0, 0.9);">

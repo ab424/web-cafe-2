@@ -66,7 +66,6 @@
         <div class="row mt-3">
 
           <?php 
-
           include('koneksi.php');
 
           $query = mysqli_query($koneksi, 'SELECT * FROM produk');
